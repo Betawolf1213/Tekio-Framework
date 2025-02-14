@@ -17,3 +17,5 @@ with open('project_names.json', 'w') as output_file:
     json.dump(project_names, output_file)
 
 print(f"Total project names found: {len(project_names)}")
+
+# Need to add more documentation
